@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "lorren-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "webpack"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "path": "^0.12.7",
+    "webpack": "^3.8.1"
+  }
+}

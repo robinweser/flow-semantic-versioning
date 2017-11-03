@@ -1,0 +1,23 @@
+{
+  "name": "lorren",
+  "version": "1.0.0",
+  "description": "Enforced Semantic Versioning using Flow",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rofrischmann/lorren.git"
+  },
+  "keywords": ["semver", "typing", "flow", "flowtype"],
+  "author": "Robin Frischmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rofrischmann/lorren/issues"
+  },
+  "homepage": "https://github.com/rofrischmann/lorren#readme"
+}

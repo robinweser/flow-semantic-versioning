@@ -1,0 +1,64 @@
+{
+  "src/foo.js": [
+    {
+      "name": "foo",
+      "params": [
+        "String"
+      ]
+    }
+  ],
+  "src/bar.js": [
+    {
+      "name": "bar",
+      "params": [
+        "String",
+        "Number"
+      ],
+      "return": "Number"
+    }
+  ],
+  "src/sub/foo.js": [
+    {
+      "name": "baz",
+      "params": [
+        "String"
+      ]
+    }
+  ],
+  "src/bums.js": [
+    {
+      "name": "bums",
+      "params": [
+        "Number"
+      ],
+      "return": {
+        "color": "String",
+        "bar": "Array",
+        "baz": {
+          "name": "baz",
+          "params": [],
+          "return": {
+            "size": "Number",
+            "bar": "Array",
+            "balo": {
+              "name": "balo",
+              "params": [
+                "String"
+              ],
+              "return": "Number"
+            }
+          }
+        },
+        "size": "Number",
+        "balo": {
+          "name": "balo",
+          "params": [
+            "String"
+          ],
+          "return": "Number"
+        },
+        "foo": "Boolean"
+      }
+    }
+  ]
+}
