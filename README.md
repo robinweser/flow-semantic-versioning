@@ -16,10 +16,11 @@ It then generates a JSON-based lock-file containing all types grouped by filenam
 
 This lock-file can then be used to compare your API changes. Depending on what and how your APIs change, we can then propose the correct version following semantic versioning.
 
-
-| Benefits | Caveats |
-| -------- | ------- |
-| • enforces SemVer using Flow<br>• keeps track of changes automatically<br>• helps to evaluate changes<br> | • only works with 100% Flow coverage<br> &nbsp;&nbsp; - at least for public API<br>• might not catch all edge cases<br>• doesn't (yet) support TypeScript |
+## Caveats
+* only works with 100% Flow coverage
+  - at least for public API
+* might not catch all edge cases
+* doesn't (yet) support TypeScript
 
 ## Installation
 ```sh
