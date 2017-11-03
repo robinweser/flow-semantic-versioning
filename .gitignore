@@ -23,4 +23,5 @@ node_modules
 coverage
 lib
 _book
+build
 .vscode
