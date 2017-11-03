@@ -29,7 +29,8 @@
     {
       "name": "bums",
       "params": [
-        "Number"
+        "Number",
+        "MISSING_TYPE"
       ],
       "return": {
         "color": "String",
